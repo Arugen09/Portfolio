@@ -1,0 +1,123 @@
+.titlethings {
+    background: linear-gradient(60deg, rgb(131, 0, 131) 40%, rgb(0, 38, 255) 60%);
+    padding: 2px;
+    display:flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+}
+
+.titlethings:hover {
+    background: linear-gradient(60deg, rgb(0, 38, 255) 40%, rgb(131, 0, 131) 60%);
+    margin-top: 13px;
+    transform: scale(1.1);
+}
+
+.bodyelements {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bodyelements {
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+}
+.secondrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+}
+.secondrow {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.description {
+    color:white;
+    text-align: center;
+    font-size: 22px;
+}
+
+img {
+    padding: 5px;
+}
+.game {
+    background: linear-gradient(60deg, cyan 40%, blue 60%) ;
+    border-radius: 5px;
+    border-width: 20px;
+    border-color: black;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: darkblue;
+    font-weight: 1000;
+    opacity: 1;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.game:hover {
+    transform: scale(1.2);
+}
+
+.game:hover img{
+    opacity: 0.21;
+}
+
+.game p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    opacity: 0;
+    font-size: 18px;
+}
+
+.game:hover p{
+    opacity: 1;
+}
+
+.game2 {
+    background: linear-gradient(60deg, lightgreen 40%, green 60%) ;
+    border-radius: 5px;
+    border-width: 20px;
+    border-color: black;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: rgb(24, 77, 0);
+    font-weight: 1000;
+    opacity: 1;
+
+}
+
+.game2 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    opacity: 0;
+    font-size: 18px;
+}
+
+.game2:hover {
+    transform: scale(1.2);
+}
+
+.game2:hover img{
+    opacity: 0.21;
+}
+
+.game2:hover p{
+    opacity: 1;
+}
+
+body {
+    background-image: url('5545314.jpg');
+}
+
